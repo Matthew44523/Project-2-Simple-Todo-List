@@ -1,15 +1,54 @@
 <html>
 
-    <head>
+<head>
+   
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 
-        <title> Todo List </title>
+</head>
 
+<body>
 
-    </head>
+    <h1 class="font-Comic-Sans" id="text_shadow">Matthew's Todo List</h1>
 
-    <body>
+    <div class="container mt-5">
 
+        <form>
 
-    </body>
+            <div class="mb-3">
+                <label for="taskName" class="form-label">Task Title</label>
+                <input type="text" class="form-control" id="taskName" placeholder="Enter Task">
+            </div>
+
+            <div class="mb-3">
+                <label for="taskLevel" class="form-label">Priority Level</label>
+                <select class="form-select" id="taskLevel">
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Status</label>
+                    <input class="form-check-input" type="radio" name="status" id="inProg" value="In Progress">
+                    <label class="form-check-label" for="inProg">In Progress</label>
+                    <input class="form-check-input" type="radio" name="status" id="completed" value="Completed">
+                    <label class="form-check-label" for="completed">Completed</label>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="container mt-5">
+
+        <ol>
+
+        </ol>
+
+    </div>
+
+</body>
 
 </html>

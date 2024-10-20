@@ -1,0 +1,18 @@
+h1 {text-align: center;}
+
+div {text-align: center;}
+
+.font-Comic-Sans {font-family: 'Comic Sans MS', cursive, sans-serif;}
+
+#text_shadow {text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);}
+
+.auto-size-image {width: 15%; height: auto;}
+
+.toc a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(255, 255, 226); 
+    color: black;
+}
