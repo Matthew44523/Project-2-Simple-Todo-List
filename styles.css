@@ -16,3 +16,7 @@ body {
     background-color: rgb(255, 255, 226); 
     color: black;
 }
+
+.completed-task {
+    text-decoration: line-through;
+}
